@@ -44,7 +44,7 @@
           <div class="collapse navbar-toggleable-md" id="navbarCollapse">
             <ul class="nav navbar-nav text-md-center justify-content-md-between">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="../visitor/home.php">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Ask a Question</a>
@@ -52,7 +52,7 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Question</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                  <a class="dropdown-item" href="#">Question Category</a>
+                  <a class="dropdown-item" href="../user/question.php">Question Category</a>
                   <a class="dropdown-item" href="#">Another action</a>
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
@@ -61,7 +61,7 @@
                 <a class="nav-link" href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                <a class="nav-link" href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a>
               </li>
 
             </ul>
