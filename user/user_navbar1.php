@@ -57,11 +57,16 @@
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Profile</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="editprofile.php">Edit Profile</a>
+                  <a class="dropdown-item" href="#">Change Password</a>
+                  <a class="dropdown-item" href="#">Edit Profile Picture</a>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                <a class="nav-link" href="#"><span class="glyphicon glyphicon-log-in"></span> Logout</a>
               </li>
 
             </ul>
