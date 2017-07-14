@@ -25,10 +25,10 @@
     <a class="nav-link active" href="#">Recent Questions</a>
     </li>
     <li class="nav-item">
-    <a class="nav-link active" href="#">Recently Answered</a>
+    <a class="nav-link" href="#">Recently Answered</a>
     </li>
     <li class="nav-item">
-    <a class="nav-link active" href="#">Unanswered Questions</a>
+    <a class="nav-link" href="#">Unanswered Questions</a>
     </li>
   </ul>
 <!--<ul class="nav nav-tabs justify-content-end">
@@ -61,12 +61,27 @@
   </li>
   
 </ul>-->
-</div>    
+</div>  
+<div class="row"> 
+<div class="list-group col-md-4">
+ <a href="#" class="list-group-item list-group-item-action">C</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success">C++</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-info">Java</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-warning">PHP</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-danger">VB.Net</a>
+   <a href="#" class="list-group-item list-group-item-action">Angular</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success">Ionic</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-info">Python</a>
+</div>
+ <div class="col-md-8">
 <form method="post" action="">
 <div class="card">
  <div class="card-block">
+ 
   <table class="table table-responsive">
+
   <tr>
+ 
     <td class="f1">Like 5<br><br>
     Ans 2
     </td> 
@@ -82,9 +97,10 @@
   <td align="right">
   <img src="image">
   </td>
-  </tr>
   
-    <tr>
+  
+</tr><tr>
+
     <td class="f1">Like 5<br><br>
     Ans 2
     </td> 
@@ -100,9 +116,8 @@
   <td align="right">
   <img src="image">
   </td>
-  </tr>
-
-    <tr>
+  </tr><tr>
+ 
     <td class="f1">Like 5<br><br>
     Ans 2
     </td> 
@@ -124,6 +139,8 @@
 
 </div>
 </form>
+</div>
+</div>
        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
