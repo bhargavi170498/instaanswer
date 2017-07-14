@@ -20,7 +20,18 @@
         include 'user_navbar.php';
       ?>
 <div>
-<ul class="nav nav-tabs justify-content-end">
+  <ul class="nav nav-tabs justify-content-end">
+    <li class="nav-item">
+    <a class="nav-link active" href="#">Recent Questions</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link active" href="#">Recently Answered</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link active" href="#">Unanswered Questions</a>
+    </li>
+  </ul>
+<!--<ul class="nav nav-tabs justify-content-end">
 <li class="nav-item">
     <a class="nav-link active" href="#">All</a>
   </li>
@@ -49,7 +60,7 @@
     <a class="nav-link" href="#">Python</a>
   </li>
   
-</ul>
+</ul>-->
 </div>    
 <form method="post" action="">
 <div class="card">
